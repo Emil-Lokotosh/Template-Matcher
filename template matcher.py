@@ -4,8 +4,8 @@ from tkinter import Tk, Canvas, Scrollbar, HORIZONTAL, VERTICAL, NW, Frame, Butt
 from PIL import Image, ImageTk
 
 # Load images
-large_image_path = r"C:\Users\ejlok\AppData\Roaming\com.modrinth.theseus\profiles\Stinky SMP Official 2024.2 (1)\map exports\2024-07-09_22.51.10_x-16896_z-9216.png"
-template_image_path = r"C:\Users\ejlok\Downloads\MSample.png"
+large_image_path = r"path for image where you search"
+template_image_path = r"template path"
 
 large_image = cv2.imread(large_image_path)
 template_image = cv2.imread(template_image_path)
